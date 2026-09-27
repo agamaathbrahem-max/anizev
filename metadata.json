@@ -1,0 +1,6 @@
+{
+  "name": "Anizav World Art LLC — North American Berber & World Music Gateway",
+  "description": "Official cultural institution portal, concert tour schedule, artist roster, technical staging services, and box office ticketing for Anizav World Art LLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
