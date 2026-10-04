@@ -71,12 +71,12 @@ export const ConcertsView: React.FC<ConcertsViewProps> = ({
         statusColor: 'text-blue-600 bg-blue-50 border-blue-200',
         venue: t('concerts.event1Meta', 'Mer. 19h00 • The Town Hall, New York'),
         image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1XRLTf-EA897DrFrxcu3uhQYionDSG4Cwjw8kU_pBvc9pNstoUi1WmmVoKvou4fW0J1-Ax4uOTCDMQZPlr_6X2YAaXcjNeWZc9X4LT0O8P6wxn0eg8-lTRenW_cnnSphgTyS_niHDDYfJj1bHAo09PNb74a3_HMPSWI0hlGrBnZhAWBf5ZyTUfFUfuknPxtoQ9CHSiWzdfxqWf3P5DdkR3Xy0sPjmNhU8fs5hj08hiV3Eds8jaSwutjeeM',
+          'media/ait_mengelet_afiche.jpg',
         isBookable: true,
       },
       {
         id: 'c2',
-        title: t('concerts.event2Title', 'Lounis Aït Menguellet & Quatuor à cordes'),
+        title: t('concerts.event2Title', 'Ali Amran en concert'),
         type: t('concerts.event2Type', 'CONCERT EN SALLE'),
         typeIcon: Theater,
         month: 'OCT',
@@ -86,7 +86,7 @@ export const ConcertsView: React.FC<ConcertsViewProps> = ({
         statusColor: 'text-[#795900] bg-amber-50 border-amber-200',
         venue: t('concerts.event2Meta', 'Dim. 18h30 • Symphony Hall, Boston'),
         image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1U3Mwuj22hKEKOyfaCGHgpvAFuMymKQutbbCLboZUc95gXE8cVAVxwvJdVkU3dpONJmxfOYKURew7gIWtApfC3CIPRpgq9Z3Vx1x2jG7JGMlcdYihfAp29TMY0PFXZwZemrB3ngzy8m04_HdqWTHMc9B6bwQjPt5XTszusp-x4BFjXnarcaRdfd3zCCuVn546sXqRgh6NEl5fNksH4Ufru3LAg_H9I1ErMaWOy9_6l6I7sT_2t8YEmhDg',
+          'media/ali_amran_afiche.jpg',
         isBookable: true,
       },
       {

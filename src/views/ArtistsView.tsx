@@ -78,7 +78,7 @@ export const ArtistsView: React.FC<ArtistsViewProps> = ({
         name: 'Idir Tribute & Archival Ensemble',
         subtitle: 'Algérie / Diaspora • Répertoire patrimonial',
         image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1XaupOZK94FX5NERtdGeqvHxlseeNyQB8jX9kZceb0CVITCxNXmR7ft5BOmSnvoqvFXsq_MliFpKL92_5u8RvpmtHfXVKyKcvgypMcPNIfohOu401wg7VmkLG8NE427QkOPjPhfwpd7DEQVHtCRIfTjEy5P8lCtJFqkFviTxJc2TW4J58OTtYuzKrKPpneQTnRdHIrl-bz7BRrV79GGRoAXtLAzFeSZCVzLlQJRNPEIVRfhRGfN6pnwAnE',
+          'media/idir.jpg',
         tags: ['Guitare acoustique', 'Flûte', 'Chant'],
         region: 'Diaspora',
         country: 'Algérie',
@@ -148,7 +148,7 @@ export const ArtistsView: React.FC<ArtistsViewProps> = ({
         name: 'Djamel Allam Archival Project',
         subtitle: 'Algérie • Archives musicales',
         image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1U3Mwuj22hKEKOyfaCGHgpvAFuMymKQutbbCLboZUc95gXE8cVAVxwvJdVkU3dpONJmxfOYKURew7gIWtApfC3CIPRpgq9Z3Vx1x2jG7JGMlcdYihfAp29TMY0PFXZwZemrB3ngzy8m04_HdqWTHMc9B6bwQjPt5XTszusp-x4BFjXnarcaRdfd3zCCuVn546sXqRgh6NEl5fNksH4Ufru3LAg_H9I1ErMaWOy9_6l6I7sT_2t8YEmhDg',
+          'media/Djamel_Allam.jpg',
         tags: ['Folk acoustique', 'Mandole', 'Chant'],
         region: 'Afrique du Nord',
         country: 'Algérie',
@@ -159,45 +159,17 @@ export const ArtistsView: React.FC<ArtistsViewProps> = ({
       },
       {
         id: 'a10',
-        name: 'Naseer Shamma Ensemble',
-        subtitle: "Irak / Égypte • Maîtrise de l'Oud",
+        name: 'Djilali Hammama',
+        subtitle: "Algérie • Kabyle / Fête",
         image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1XRLTf-EA897DrFrxcu3uhQYionDSG4Cwjw8kU_pBvc9pNstoUi1WmmVoKvou4fW0J1-Ax4uOTCDMQZPlr_6X2YAaXcjNeWZc9X4LT0O8P6wxn0eg8-lTRenW_cnnSphgTyS_niHDDYfJj1bHAo09PNb74a3_HMPSWI0hlGrBnZhAWBf5ZyTUfFUfuknPxtoQ9CHSiWzdfxqWf3P5DdkR3Xy0sPjmNhU8fs5hj08hiV3Eds8jaSwutjeeM',
-        tags: ['Oud', 'Musique de chambre', 'Composition'],
-        region: 'Moyen-Orient',
-        country: 'Irak / Égypte',
-        genre: 'Maqâm / Classique arabe',
-        instruments: ['Oud', 'Violoncelle', 'Ney', 'Riq'],
-        bio: "Virtuose mondial de l'oud à huit cordes et Artiste de l'UNESCO pour la paix, Naseer Shamma transcende les traditions séculaires du Maqâm vers un dialogue symphonique universel.",
+          'media/djilali_hammama.jpg',
+        tags: ['Oud', 'Musique', 'Composition'],
+        region: 'Afrique du Nord',
+        country: 'Algerie',
+        genre: 'fête',
+        instruments: ['Violoncelle', 'Guitare'],
+        bio: "Djilali Hammama offre un pont subtil entre la tradition de fête kabyle.",
         availability: 'Résidences de conservatoires et auditoriums symphoniques',
-      },
-      {
-        id: 'a11',
-        name: 'Fanfare Ciocărlia',
-        subtitle: 'Roumanie • Fanfare balkanique',
-        image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1XaupOZK94FX5NERtdGeqvHxlseeNyQB8jX9kZceb0CVITCxNXmR7ft5BOmSnvoqvFXsq_MliFpKL92_5u8RvpmtHfXVKyKcvgypMcPNIfohOu401wg7VmkLG8NE427QkOPjPhfwpd7DEQVHtCRIfTjEy5P8lCtJFqkFviTxJc2TW4J58OTtYuzKrKPpneQTnRdHIrl-bz7BRrV79GGRoAXtLAzFeSZCVzLlQJRNPEIVRfhRGfN6pnwAnE',
-        tags: ['Cuivres', 'Trompette', 'Percussions'],
-        region: 'Europe de l’Est',
-        country: 'Roumanie',
-        genre: 'Balkan Brass',
-        instruments: ['Trompettes', 'Trombones', 'Tubas', 'Tapan'],
-        bio: "L'ouragan sonore le plus rapide et virtuose des Balkans. Leurs tempos ultra-rapides et leurs cuivres rugissants ont conquis Carnegie Hall et les scènes mondiales.",
-        availability: 'Tournées festivals et salles majeures',
-      },
-      {
-        id: 'a12',
-        name: 'Dhafer Youssef Quartet',
-        subtitle: 'Tunisie / France • Jazz mystique',
-        image:
-          'https://lh3.googleusercontent.com/aida/AEtjO1UrMd6022J6RXRLLFgXZ8VQQUEEeTk42y-QfCiSZviYYOlqZt3SLV7-Sd2fEcY4OwaZrcj_5rz5vr2ZH06b_Spd5TkpUvZU4WbpIHmW5YEJyCyxqhHm5CI67TsG1ojsleR9knqMej-O4r81sOS3z9I8gHWFxrwAQQaVJu_CaueTuSTUDfbaSAilznKIW3tptb-w66Yno74x8WFhpqihojautduFVXHQb3oJ33DzWy4snsjDi5CXGmsTN0k',
-        tags: ['Oud', 'Improvisation vocale', 'Contrebasse acoustique'],
-        region: 'Méditerranée',
-        country: 'Tunisie / France',
-        genre: 'Jazz Soufi / Mystique',
-        instruments: ['Oud', 'Chant de gorge', 'Piano', 'Contrebasse'],
-        bio: "Maître de l'oud et vocaliste d'une étendue vertigineuse, Dhafer Youssef crée une passerelle envoûtante entre la tradition soufie mystique et le jazz contemporain le plus audacieux.",
-        availability: 'Automne 2026 / Hiver 2027 • Grands auditoriums acoustiques',
       },
     ],
     [t]
@@ -284,8 +256,8 @@ export const ArtistsView: React.FC<ArtistsViewProps> = ({
             >
               <option value="all">{t('artists.filterCountry', 'Pays')} ({t('artists.allFilter', 'Tous')})</option>
               <option value="Algérie">Algérie</option>
-              <option value="Roumanie">Roumanie</option>
-              <option value="Irak">Irak</option>
+              <option value="Lybie">Lybie</option>
+              <option value="Maroc">Maroc</option>
               <option value="Tunisie">Tunisie</option>
             </select>
 

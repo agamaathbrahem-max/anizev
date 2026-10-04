@@ -449,7 +449,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onNavigate, prefilledA
             </div>
           </div>
 
-          {/* Institutional Contact Form */}
+          {/* Institutional Contact Form 
           <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-6 sm:p-8 space-y-5">
             <div>
               <h3 className="font-serif text-2xl font-bold text-slate-900">
@@ -554,6 +554,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onNavigate, prefilledA
               </div>
             </form>
           </div>
+          */}
         </div>
       </div>
     </div>
